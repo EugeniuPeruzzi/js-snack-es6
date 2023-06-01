@@ -48,7 +48,7 @@ let gradesOverSeventy = student.filter(student => student.grades > 70);
 console.log(gradesOverSeventy);
 //cicla singolo ogetto dell'array 
 for (let i=0; i<gradesOverSeventy.length; i++){
-    console.log(gradesOverSeventy[i]);
+  console.log(gradesOverSeventy[i]);
 };
 
 // estra un singolo array con i 2 oggetti corrispondenti
@@ -56,7 +56,7 @@ let gradesAndId = student.filter(student => student.grades > 70 && student.id > 
 console.log(gradesAndId);
 // mi estrapola i 2 oggetti fuori dall'array
 for (let j=0 ; j<gradesAndId.length; j++){
-    console.log(gradesAndId[j]);
-}
+  console.log(gradesAndId[j]);
+};
 
 // ho provato a fare diversi console.log per vedere come si comporta in diverse parti.
